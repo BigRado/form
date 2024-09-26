@@ -1,0 +1,90 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: pink;
+}
+
+form {
+    background-color: white;
+    width: 390px;
+    height: 450px;
+    margin: 50px auto;
+    border-radius: 20px;
+    box-shadow: 3px 3px 5px rgb(0, 0, 0);
+}
+
+form>div .input {
+    margin: 15px 40px 15px;
+    width: 300px;
+    border-radius: 20px;
+    padding: 10px;
+    padding-left: 30px;
+}
+
+.chkbox {
+    margin-left: 40px;
+}
+
+.text {
+    text-align: center;
+    margin-top: 50px;
+    background-image: linear-gradient(to right, rgb(90, 2, 190), rgb(231, 17, 106));
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.bigtxt {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-weight: bolder;
+    font-size: 30px;
+    color: white;
+}
+
+.btn {
+    color: white;
+    font-weight: bolder;
+    background-image: linear-gradient(to right, rgb(90, 2, 190), rgb(231, 17, 106));
+
+}
+
+.btn:hover {
+    background-image: linear-gradient(to right, rgb(167, 89, 240), rgb(255, 68, 99));
+}
+
+a {
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+.member {
+    margin: 15px 80px;
+}
+
+@media only screen and (max-width:380px){
+    form{
+        width: 350px;
+    }
+    form > div .input{
+        width: 290px;
+        margin-left: 30px;
+    }
+    .member{
+        margin-left: 50px;
+    }
+}
+
+@media only screen and (max-width:480px) {
+    form{
+        width: 350px;
+    }
+
+    form >div .input {
+        width: 270px;
+    }
+
+
